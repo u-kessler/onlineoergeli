@@ -1,0 +1,94 @@
+.örgeli-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-gap: 5vh;
+    grid-auto-rows: minmax(10vh, auto);
+    align-items: center;
+    justify-content:center;
+}
+
+
+button {
+    height: 15vh;
+    width: auto;
+    border-radius: 3vh;
+    border: none;
+}
+
+h2 {
+    height: auto;
+}
+
+
+
+#i {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;    
+}
+
+#v {
+    grid-column: 3;
+    grid-row: 1;  
+    text-align: center;    
+}
+
+
+
+
+#B {    
+    grid-column: 2;
+    grid-row: 2;
+    background-color: hsl(120, 60%, 60%) ;  
+}
+
+#F7 {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: hsl(120, 80%, 80%);      
+}
+
+
+
+
+#Es {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: hsl(10, 60%, 60%) ;      
+}
+
+#B7 {
+    grid-column: 3;
+    grid-row: 3;
+    background-color: hsl(10, 80%, 80%);     
+}
+
+
+
+
+#As {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: hsl(60, 60%, 60%) ;      
+}
+
+#Es7 {
+    grid-column: 3;
+    grid-row: 4;
+    background-color: hsl(60, 80%, 80%);      
+}
+
+
+
+
+#Des {
+    grid-column: 2;
+    grid-row: 5;
+    background-color: hsl(200, 60%, 60%) ;
+}
+
+#As7 {
+    grid-column: 3;
+    grid-row: 5;      
+    background-color: hsl(200, 80%, 80%);
+}
