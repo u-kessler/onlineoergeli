@@ -18,6 +18,15 @@ $("document").ready(function() {
         b_sound.currentTime = 0;
     });
 
+    b_button.on("touchstart", function (){
+        b_sound.play();
+    });
+
+    b_button.on("touchend", function (){
+        b_sound.pause();
+        b_sound.currentTime = 0;
+    });
+
 
 
     // F7
@@ -34,6 +43,13 @@ $("document").ready(function() {
         f7_sound.currentTime = 0;
     });
 
+    f7_button.on("touchstart", function (){
+        f7_sound.play();
+    });
+
+    f7_button.on("touchend", function (){
+        f7_sound.play();
+    });
 
 
     // Es 
