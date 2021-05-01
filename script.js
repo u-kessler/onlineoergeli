@@ -48,7 +48,8 @@ $("document").ready(function() {
     });
 
     f7_button.on("touchend", function (){
-        f7_sound.play();
+        f7_sound.pause();
+        f7_sound.currentTime = 0;
     });
 
 
@@ -66,6 +67,14 @@ $("document").ready(function() {
         es_sound.currentTime = 0;
     });
 
+    es_button.on("touchstart", function (){
+        es_sound.play();
+    });
+
+    es_button.on("touchend", function (){
+        es_sound.pause();
+        es_sound.currentTime = 0;
+    });
 
 
     // B7
@@ -78,6 +87,15 @@ $("document").ready(function() {
     });
 
     b7_button.on("mouseup", function (){
+        b7_sound.pause();
+        b7_sound.currentTime = 0;
+    });
+
+    b7_button.on("touchstart", function (){
+        b7_sound.play();
+    });
+
+    b7_button.on("touchend", function (){
         b7_sound.pause();
         b7_sound.currentTime = 0;
     });
@@ -98,6 +116,15 @@ $("document").ready(function() {
         as_sound.currentTime = 0;
     });
 
+    as_button.on("touchstart", function (){
+        as_sound.play();
+    });
+
+    as_button.on("touchend", function (){
+        as_sound.pause();
+        as_sound.currentTime = 0;
+    });
+
 
 
     // Es7
@@ -110,6 +137,15 @@ $("document").ready(function() {
     });
 
     es7_button.on("mouseup", function (){
+        es7_sound.pause();
+        es7_sound.currentTime = 0;
+    });
+
+    es7_button.on("touchstart", function (){
+        es7_sound.play();
+    });
+
+    es7_button.on("touchend", function (){
         es7_sound.pause();
         es7_sound.currentTime = 0;
     });
@@ -130,6 +166,15 @@ $("document").ready(function() {
         des_sound.currentTime = 0;
     });
 
+    des_button.on("touchstart", function (){
+        des_sound.play();
+    });
+
+    des_button.on("touchend", function (){
+        des_sound.pause();
+        des_sound.currentTime = 0;
+    });
+
 
     
     // As7
@@ -146,10 +191,14 @@ $("document").ready(function() {
         as7_sound.currentTime = 0;
     });
 
+    as7_button.on("touchstart", function (){
+        as7_sound.play();
+    });
 
-
-
-
+    as7_button.on("touchend", function (){
+        as7_sound.pause();
+        as7_sound.currentTime = 0;
+    });
 
     
 });

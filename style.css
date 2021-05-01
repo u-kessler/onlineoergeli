@@ -1,6 +1,6 @@
 .örgeli-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-columns: auto 10em 10em auto;
     grid-gap: 5vh;
     grid-auto-rows: minmax(10vh, auto);
     align-items: center;
