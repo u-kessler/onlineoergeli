@@ -7,12 +7,17 @@
     justify-content:center;
 }
 
+body {
+    user-select: none;
+    margin: 0 0 0 0;
+}
 
 button {
     height: 15vh;
     width: auto;
     border-radius: 3vh;
     border: none;
+    user-select: none;
 }
 
 h2 {
